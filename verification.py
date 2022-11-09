@@ -20,7 +20,7 @@ with open("public_key.pem", "rb") as public_file:
         public_file.read(),
     )
 
-# vérifie si la signature et la même qu'au début
+# compare la signature avec le hash initial
 public_key.verify(
     signature,
     message,
