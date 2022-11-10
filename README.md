@@ -7,4 +7,7 @@ Il faut executer dans l'ordre suivant :<br><br>
 - verification.py qui va comparer la signature avec le hash initial.<br><br>
 
 # Pour savoir si la signature est la bonne
-Vérification.py aura un message d'erreur
+Vérification.py aura un message d'erreur.
+
+# Documentation
+https://cryptography.io/en/latest/hazmat/primitives/asymmetric/rsa/
